@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "465527028652",
+    "firebase_url": "https://leftover-food-donation.firebaseio.com",
+    "project_id": "leftover-food-donation",
+    "storage_bucket": "leftover-food-donation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465527028652:android:20b456a34366cd06da5809",
+        "android_client_info": {
+          "package_name": "com.madproject.leftoverfooddonation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465527028652-6g1m0v0snvt68pm4nd5h4hogir61mesa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkqtFrJ38CusUoE5I9bspvv4FCLzKRIHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465527028652-6g1m0v0snvt68pm4nd5h4hogir61mesa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

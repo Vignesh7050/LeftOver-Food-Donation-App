@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:background="#1A237E">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="284dp"
+            android:layout_height="556dp"
+            android:background="@drawable/rounded_corner_background_white"
+            android:backgroundTint="#fff"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingLeft="30sp"
+            android:paddingTop="20sp"
+            android:paddingRight="30sp"
+            android:paddingBottom="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <Button
+                android:id="@+id/btRegister"
+                android:layout_width="179dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="388dp"
+                android:backgroundTint="#F71D6DD1"
+                android:shadowColor="#95B5EB"
+                android:text="@string/register"
+                android:textColor="#fff"
+                android:textColorHighlight="#00DBABAB"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btReset"
+                android:layout_width="100sp"
+                android:layout_height="37sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:text="@string/reset"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btRegister" />
+
+            <EditText
+                android:id="@+id/etRegisterUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusableInTouchMode="true"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:hint="@string/full_name"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRegisterPage" />
+
+            <EditText
+                android:id="@+id/etRegisterEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusableInTouchMode="true"
+                android:hint="@string/email_id"
+                android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etRegisterPhone" />
+
+            <EditText
+                android:id="@+id/etRegisterPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusableInTouchMode="true"
+                android:hint="@string/valid_phone_number"
+                android:inputType="phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etRegisterUsername" />
+
+            <EditText
+                android:id="@+id/etRegisterPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusableInTouchMode="true"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etRegisterEmail" />
+
+            <EditText
+                android:id="@+id/etRegisterRepassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:focusableInTouchMode="true"
+                android:hint="@string/re_enter_password"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etRegisterPassword" />
+
+            <TextView
+                android:id="@+id/tvRegisterPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alegreya"
+                android:foregroundGravity="center|center_horizontal"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="@string/register"
+                android:textAlignment="center"
+                android:textColor="#6A1B9A"
+                android:textSize="27sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvBackToLogin"
+                android:layout_width="216dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/have_account"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btReset" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/mandatory_fields"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/tvBackToLogin"
+                app:layout_constraintHorizontal_bias="0.456"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etRegisterRepassword" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

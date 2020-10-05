@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Leftover Food Donation</string>
+
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="dont_have_account">Don\'t have an account? Register here</string>
+
+    <string name="home">Home</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="about_app">About</string>
+    <string name="logout">Logout</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="food_name">Food Name</string>
+    <string name="hint_food_name">Please enter brief title of food</string>
+    <string name="quantity_description">Quantity Description</string>
+    <string name="hint_describe_quantity">Please describe food quantity</string>
+    <string name="description">Description</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="address">Address</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="select_image">SELECT IMAGE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="reset">RESET</string>
+
+    <string name="register">REGISTER</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="valid_phone_number">Valid phone number</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="have_account">Already registered? Login here</string>
+    <string name="mandatory_fields">* All fields are mandatory</string>
+
+    <string name="find_food">Find Food</string>
+    <string name="donate_food">Donate Food</string>
+    <string name="food_donated_by_you">Food Donated By you</string>
+    <string name="please_don_t_waste_food">Please don\'t waste food</string>
+
+    <string name="food_details">Food Details</string>
+    <string name="dont_waste_food">Don\'t Waste Food</string>
+    <string name="your_donation">Your Donations</string>
+    <string name="food_donors">Food Donors</string>
+
+    <string name="food_is_elixir">Food is Elixir</string>
+    <string name="dont_waste_food_guidelines">
+        "\"ANNAM  PARABRAHMASWAROOPAM\"  says  our  Indian  philosophy.  This  means  that  food  is  equal  to  God  as  told  by  our  great  ancient  Sayers.
+        But  we,  their  descendant,  are  we  giving  the  same  amount  of  respect  to  this  age-old  God?  Frankly,  most  of  us  do  not.  \n\n
+        Result : \nMillions  of  our  fellow  beings  are  dying  in  hunger  when  millions  of  tons  of  food  is  being  thrown  away,  wasted,  discarded,  whatever;
+        for  no  good  reason  most  of  the  times.  Other  times  there  are  a  few  good  complications  because  of  which  food  is  wasted.  Except  for  them,  this  is  a  very  simple  problem  with  possibilities  of  simple  solutions.
+        In  brief  it  is  \"Don\'t  waste  food;  Give  it  to  others.\"\n"
+    </string>
+
+    <string name="about_app_content">
+        This app is developed to save the food. In these days so much food is wasted in hotels, restaurants, functions etc. This leftover food can
+        be effectively utilized by donating it to needy people so food wastage can be prevented. Donating food will help a lot of people who are suffering to get one mean per day.
+        Leftover Food Donation app provides very simple method to contact the food donors. App is helpful to those who wants to donate food or can take initiative of supplying food to the needy people by taking from donors. \n
+        Please save food, donate food and make it to reach the people in need of it. Lets join our hands together in making our country hunger free.
+    </string>
+
+    <string name="app_usage_instructions_title">App usage instructions:</string>
+    <string name="app_use_instructions">
+        1) Register to the app through register form\n
+        2) Login to the app to use the app features\n
+        3) Donate food : You can donate food by filling a form which includes the food details like food name, quantity, description, contact information of donor and food image. This food is visible to all the other users.\n
+        4)Find food : Food is to be found out using donor names. App will display all the donors and their corresponding foods. Those who want to take it can directly contact donor using his contact number and later manual operation needs to be done for food transfer.\n
+        5) User can delete his account which intern deletes details for his food donations from the database.\n
+        6) User can logout to from his account using logout button present on dashboard.
+    </string>
+
+    <string name="developer_info">
+        - Vignesh Acharya (4NM17CS208)\n
+        - Thejas Manjar (4NM17CS202)\n\n
+        The app is developed as a mini project for Mobile Application Development subject under the guidance of Ms.Ankitha A Nayak, Asst Professor, Department of Computer Science and Engineering, NMAM Institute of Technology, Nitte</string>
+</resources>

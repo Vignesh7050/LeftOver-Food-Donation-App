@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F76F3"
+    android:padding="10sp"
+    tools:context=".AboutFragment">
+
+    <ScrollView
+        android:id="@+id/parent_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corner_background_white"
+        android:backgroundTint="#fff"
+        android:padding="10sp"
+        android:scrollbars="none"
+        android:focusableInTouchMode="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/alegreya"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="@string/app_name"
+                android:textColor="#ff0000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="5sp"
+                android:textColor="#4555FA"
+                android:lineHeight="25sp"
+                android:text="@string/about_app_content"
+                android:textSize="15sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10sp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_usage_instructions_title"
+                android:textColor="#880E4F"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:textColor="#000"
+                android:lineHeight="25sp"
+                android:text="@string/app_use_instructions"
+                android:textSize="15sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10sp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed by:"
+                android:textStyle="italic"
+                android:textColor="#555"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#000"
+                android:layout_marginTop="15sp"
+                android:lineHeight="25sp"
+                android:text="@string/developer_info"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

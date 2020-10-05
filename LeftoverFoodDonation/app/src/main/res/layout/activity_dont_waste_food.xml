@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DontWasteFoodActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alegreya"
+        android:gravity="center"
+        android:text="@string/food_is_elixir"
+        android:textColor="#0000ff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:fontFamily="@font/alegreya"
+        android:gravity="center"
+        android:lineHeight="30sp"
+        android:padding="5sp"
+        android:text="@string/dont_waste_food_guidelines"
+        android:textColor="#027A02"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+    </ScrollView>
+</LinearLayout>
